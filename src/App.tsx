@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Login from './pages/login';
+import Student from './pages/student';
 function App() {
   return (
     <div className="App">
+      {/*Them view login vao tron App*/}
+      <Login />
+      <Student />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
