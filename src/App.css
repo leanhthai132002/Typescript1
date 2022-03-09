@@ -28,8 +28,15 @@
   color: #61dafb;
 }
 
-.up{
-  margin: center;
+.up th{
+  padding-left: 120px;
+  color: red;
+  
+}
+
+.down td{
+
+  padding-left: 135px;
 }
 
 @keyframes App-logo-spin {
