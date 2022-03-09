@@ -21,6 +21,13 @@ function Student(){
                         <td>thailaph15128@gmail.com</td>
                         <td>Xoá</td>
                     </tr>
+                    <tr>
+                        <td>Ông A</td>
+                        <td>10</td>
+                        <td>01023012</td>
+                        <td>thailaph15128@gmail.com</td>
+                        <td>Xoá</td>
+                    </tr>
                 </tbody>
             </tbody>
         </table>
