@@ -2,7 +2,7 @@ import React from "react";
 function Student(){
     return (
         <table>
-            <thead>
+            <thead className="up">
                 <tr>
                     <th>Tên</th>
                     <th>Tuổi</th>
