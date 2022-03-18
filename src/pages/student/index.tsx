@@ -31,6 +31,7 @@ function Student(){
                     </tr>
             </tbody>
         </table>
+
     )
 }
 export default Student;
