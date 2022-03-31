@@ -11,6 +11,14 @@ import {USER_LOGIN as LOGIN_USER} from './pages/login';
 import TableCustom from './pages/table';
 import Student from './pages/student';
 
+import {Routes, Route, Link} from 'react-router-dom';
+import ClientLayout from './pages/layouts/ClientLayout';
+import Product from './pages/product/Product';
+import AdminLayout from './pages/layouts/AdminLayout';
+import HomePage from './pages/homepage';
+import AdminHomePage from './pages/adminHomePage';
+import ProductDetail from './pages/product/ProductDetail';
+import ProductForm from './pages/product/ProductForm';
 type Student = {
   name: string,
   age: string,
@@ -56,6 +64,7 @@ function App() {
   const [ageValue, setageValue] = useState<string>('');
   const [addressValue, setaddressValue] = useState<string>('');
   const [phoneValue, setphoneValue] = useState<string>('');
+  
   const onAddStudent = () => {
     const newStudents = [
       ...students,
@@ -116,7 +125,31 @@ function App() {
           ? <TableCustom rows={students} headCells={headCells} />
           : null
       }
+
+  <Routes>
+        <Route path='/' element={<ClientLayout />}>
+          {/* / */}
+            <Route index element={<HomePage />} />
+            {/* /product */}
+            <Route path='product' element={<Product />} />
+        </Route>
+
+        <Route path='admin' element={<AdminLayout />}>
+          {/* /admin */}
+            <Route index element={<AdminHomePage />} />
+            {/* /admin/product */}
+            {/* <Route path='product' element={<Product />} /> */}
+            <Route path='product'>
+              <Route index element={<Product />} />
+              <Route path=':id' element={<ProductDetail />} />
+              <Route path=':id/edit' element={<ProductForm />} />
+            </Route>
+        </Route>
+      </Routes>
+
     </div>
+
+
   );
 }
 

@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "thái",
+      "age": "20",
+      "price": "2002"
+    },
+    {
+      "id": "2",
+      "name": "asf",
+      "age": "456456",
+      "price": "456456"
+    },
+    {
+      "id": "3",
+      "name": "sdfsdfsd",
+      "age": "454",
+      "price": "45645"
+    },
+    {
+      "name": "laptop1",
+      "price": 123,
+      "id": "1_eQLLd"
+    },
+    {
+      "name": "laptop",
+      "price": 234,
+      "id": "EGNIbTv"
+    },
+    {
+      "name": "laptop1",
+      "price": 12000000,
+      "id": "4LhpIVS"
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "title": "Tieu de bai viet",
+      "desc": "Mo ta",
+      "author": "thaila",
+      "category": "Tin tuc",
+      "status": 1,
+      "thumbnail": ""
+    },
+    {
+      "title": "sách lậu",
+      "desc": "siêu lậu",
+      "author": "lậu",
+      "category": "tuyển tập hàng lậu",
+      "thumbnail": "hihi",
+      "status": "0",
+      "id": 2
+    },
+    {
+      "title": "a",
+      "desc": "b",
+      "author": "c",
+      "category": "d",
+      "thumbnail": "e",
+      "status": 0,
+      "id": 3
+    }
+  ]
+}
