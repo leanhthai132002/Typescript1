@@ -8,6 +8,9 @@ import ProductForm from "./client_pages/ProductForm";
 import PostList from "./client_pages/PostList";
 import PostForm from "./client_pages/PostForm";
 import PostDetail from "./client_pages/PostDetail";
+import BookList from "./client_pages/BookList";
+import BookForm from "./client_pages/BookForm";
+import BookDetail from "./client_pages/BookDetail";
 
 function AppClone(){
     return (
@@ -33,6 +36,12 @@ function AppClone(){
                         <Route path={':id'} element={<PostDetail/>} />
                         <Route path={'create'} element={<PostForm/>} />
                         <Route path={'edit/:id'} element={<PostForm/>} />
+                    </Route>
+                    <Route path={'books'}>
+                        <Route index element={<BookList/>} />
+                        <Route path={':id'} element={<BookDetail/>} />
+                        <Route path={'create'} element={<BookForm/>} />
+                        <Route path={'edit/:id'} element={<BookForm/>} />
                     </Route>
                 </Route>
             </Routes>

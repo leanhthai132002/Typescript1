@@ -62,5 +62,25 @@
       "status": 0,
       "id": 3
     }
+  ],
+  "books": [
+    {
+      "name": "ư23435",
+      "price": 234234,
+      "categories": "sdfsf",
+      "id": 1
+    },
+    {
+      "name": "tên sspspsp",
+      "price": 123123,
+      "categories": "danh mục",
+      "id": 2
+    },
+    {
+      "name": "updatr",
+      "price": 123123123,
+      "categories": "update",
+      "id": 3
+    }
   ]
 }

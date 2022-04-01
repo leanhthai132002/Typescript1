@@ -1,4 +1,4 @@
-import AppClone from '../App_clone';
+import App from '../App';
 import api from './axios';
 
 export const getProducts = () => {

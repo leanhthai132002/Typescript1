@@ -10,6 +10,7 @@ function ClientLayout () {
                     <li><Link to={'/'}>Home</Link></li>
                     <li><Link to={'/posts'}>Post</Link></li>
                     <li><Link to={'/products'}>Product</Link></li>
+                    <li><Link to={'/books'}>Book</Link></li>
                 </ul>
             </nav>
             <main>
